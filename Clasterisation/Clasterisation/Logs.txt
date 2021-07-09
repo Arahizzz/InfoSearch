@@ -1,0 +1,14 @@
+Total files: 1801
+Champions count: 10
+1247 1721 1115 827 1059 769 1176 1357 1590 694
+Number of clusters 10
+Cluster 1059 Count: 120
+Cluster 1247 Count: 163
+Cluster 1590 Count: 4
+Cluster 694 Count: 578
+Cluster 1721 Count: 203
+Cluster 827 Count: 4
+Cluster 1357 Count: 384
+Cluster 769 Count: 13
+Cluster 1176 Count: 87
+Cluster 1115 Count: 235

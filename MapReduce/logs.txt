@@ -1,0 +1,6 @@
+Initial Collection Size: 37236765KB
+Batches count: 235
+Total words mapped: 43367335
+Unique words: 6109340
+Map duration: 0 hours 34 minutes 12 seconds
+Reduce duration: 2 hours 11 minutes 25 seconds

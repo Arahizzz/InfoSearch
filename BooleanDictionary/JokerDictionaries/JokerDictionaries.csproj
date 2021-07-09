@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>BinaryDictionary</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="wiki-100k.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MessagePack" Version="2.1.90" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SetDictionary\SetDictionary.csproj" />
+      <ProjectReference Include="..\Trie\Trie.fsproj" />
+    </ItemGroup>
+
+</Project>

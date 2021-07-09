@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Dictionary</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Trie.fs" />
+    <Compile Include="BiTrie.fs" />
+    <Compile Include="Parser.fs" />
+    <Compile Include="Interface.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FParsec" Version="1.1.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SetDictionary\SetDictionary.csproj" />
+  </ItemGroup>
+
+</Project>
